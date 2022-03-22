@@ -1,9 +1,19 @@
-@import 'base/reset.scss';
+@import "base/reset.scss";
+@import "base/typography";
 
 /*------------------------------\
-    TESTING
+    TESTING / PRODUCTION
 \------------------------------*/
 svg {
-    width: auto;
-    height: 20px;
+  width: auto;
+  height: 20px;
 }
+
+body {
+  padding: 1rem;
+}
+
+nav {
+  display: none;
+}
+
